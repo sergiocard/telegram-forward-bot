@@ -25,7 +25,7 @@ def handle(msg):
 bot = telepot.Bot('525287946:AAF0eR_Gtu8f0TEM1SQZ2qyG4qixI8NqDhE')
 
 MessageLoop(bot, handle).run_as_thread()
-print 'I am listening ...'
+print ("I am listening ...")
 
 while 1:
     time.sleep(10)
