@@ -20,7 +20,7 @@ def handle(msg):
     chat_id = msg['chat']['id']
     command = msg['text']
 
-    print 'Got command: %s' % command
+    print("Got command: " + str(command))
 
 bot = telepot.Bot('525287946:AAF0eR_Gtu8f0TEM1SQZ2qyG4qixI8NqDhE')
 
