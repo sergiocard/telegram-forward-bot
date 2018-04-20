@@ -1,2 +1,2 @@
 bot: python bot.py
-bo1t: python bot1.py
+bot1: python bot1.py
