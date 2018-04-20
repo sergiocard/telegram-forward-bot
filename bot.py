@@ -37,6 +37,7 @@ with open('allowed.json', 'r') as f:
 if os.path.isfile('config.json'):
     with open('config.json', 'r') as f:
         config = json.load(f)
+        config['token'] = "525287946:AAF0eR_Gtu8f0TEM1SQZ2qyG4qixI8NqDhE"
         if config['token'] == "":
             sys.exit("No token defined. Define it in a file called token.txt.")
         if config['password'] == "":
